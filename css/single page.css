@@ -1,0 +1,662 @@
+
+@charset "utf-8";
+/* CSS Document */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight:300px;
+}
+
+/* Header-area */
+header{
+	background-color:#00BCBB;
+	padding-bottom:42px;
+	margin-top:-50px;
+	z-index:-100;
+}
+
+
+
+header .head-left{
+
+	
+}
+header .head-left .fast{
+	
+	margin-right:15px;
+}
+
+header .head-left .last{
+	
+	margin-left:20px;
+}
+header .head-left a{
+	color:white;
+	margin:6px;
+}
+header .head-right a{
+	color:white;
+	margin-left:6px;
+	text-decoration:none;
+}
+
+header .head-right select{
+	color:white;
+	background-color:#00BCBB;
+	border:none;
+}
+/* Header-area-end */
+
+
+
+/* Navbar Area Start */
+
+.bg {
+    background-color:rgba(255,255,255,0.5);
+	
+}
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 20px 1rem;
+	
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+	font-size:14px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:#678DE9;
+}
+.fixed-top{
+    
+    top: 50px;
+}
+
+
+.Navbar-area .searchNav {
+    margin-left: 834px;
+    padding: 31px 31px;
+    position: absolute;
+	transition:all .5s;
+}
+
+.Navbar-area .searchNav img{
+	padding:0px 0px;
+}
+.Navbar-area .searchNav:hover{
+	background-color:#21BDFB;
+}
+.white{
+	background-color:#fff;
+	transition:all .5s;
+}
+.searchSticky{
+	background-color:#21BDFB;
+	transition:all .5s;
+}
+
+/* Navbar Area End */
+
+
+
+
+
+.recom .bhr{
+	height:2px;
+	background-color:#B1E2F9;
+	width:30px;
+	margin-left:445px;
+}
+
+.header-images{
+	margin-bottom:200px;
+}
+
+.header-images .banglaesh-area{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:15px 50px;
+  background-color:#FFF568;
+  z-index:100;
+}
+
+.header-images .banglaesh-area img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:-140px;
+  width: 40%;
+  border-radius:50%;
+  border:4px solid #D4CD6B;
+  
+}
+
+.header-images .banglaesh-area .embassy{
+	text-align:center;
+	display: block;
+    line-height: 0px;
+	margin-bottom:30px;
+}
+
+.header-images .banglaesh-area .icon-area{
+  top: 50%;
+  left: 50%;
+}
+.header-images .banglaesh-area .icon-area .close-time{
+  width:400px;
+  margin:0px auto;
+  border:1px solid #E2DFD2;
+  border-radius:5px;
+  padding:10px 10px;
+}
+
+
+.header-images .banglaesh-area .share-area{
+	width:500px;
+    margin:0px auto;
+	margin-top:30px;
+	margin-left:32%;
+}
+
+.header-images .banglaesh-area .share-area a{
+padding:2px;
+width:100px;
+height:100px;
+
+}
+
+.header-images .banglaesh-area .share-area a i {
+    border-radius: 50%;
+    color: white;
+    padding: 7px 10px;
+    font-size: 14px;
+	width:30px;
+	height:30px;
+	background-color:#887490;
+}
+
+
+.faq-area .bd-icon-area {
+	margin:10px 0px;
+	display:flex;
+}
+
+
+
+
+.faq-area .bd-icon-area a{
+   padding:2px;
+   width:50px;
+   height:50px;
+   border-radius: 50%;
+   margin-right:10px;
+   text-decoration:none;
+   color:#BAB7C8;
+   transition:all .5s;
+}
+
+.faq-area .bd-icon-area .submit-area{
+   float:right;
+   margin-left:100px;
+   margin-top:10px;
+}
+
+
+.faq-area .bd-icon-area a i{
+    padding: 9px 7px;
+    font-size: 30px;
+	transition:all .5s;
+}
+
+.faq-area .bd-icon-area a:hover{
+   background-color:#00B7F1;
+   color:#00B7F1;
+   border:none;
+}
+
+.faq-area .bd-icon-area a i:hover{
+   color:white;
+}
+
+.faq-area .review-area .rating-area{profile-area
+	width:70%;
+}
+
+.faq-area .review-area .profile-area{
+	width:30%;
+	text-align:center;
+}
+ 
+.faq-area .coment .lol{
+	 margin-left:40px;
+	 text-transform:uppercase;
+	 border:2px solid #8A9BC9;
+	 padding:5px;
+	 text-decoration:none;
+	 color:#8A9BC9;
+	 border-radius:5px;
+ }
+ 
+ .faq-area .coment{
+	
+ }
+ 
+
+/* 30+ experience-first-box */
+
+.experience-area .experience1 h1{
+	font-size:50px;
+	font-weight:;
+}
+.experience-area img{
+	width:100%;
+	height:auto;
+}
+
+.experience-area .experience1 h2{
+	font-size:30px;
+	font-weight:bold;
+}
+
+ .experience-area .experience2 i{
+	font-size:13px;
+}
+
+.experience-area .experience2 span{
+	font-size:13px;
+	font-weight:bold;
+}
+/* 30+ experience end */
+
+
+/* Accordion-area */
+
+  .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+
+        color: #212121;
+        border-color: #EEEEEE;
+    }
+
+    .panel-title {
+        font-size: 14px;
+		border:1px solid #EBEBEB;
+		border-radius: 5px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .more-less {
+        float: right;
+        color: #212121;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #EEEEEE;
+    }
+
+
+/* Accordion-area-end */
+
+
+/* Card-box-area Start   */
+
+.card {
+    font-weight: 400;
+    border-radius: 0;
+	transition:.5s ease;
+}
+
+.card:hover{
+    border: 0;
+	box-shadow:0px 15px 23px 0px rgba(0,0,0, .3) ;
+	
+}
+.card-body {
+    padding: 7px;
+}
+.card .view.overlay.hm-white-slight {
+    overflow: hidden;
+    position: relative;
+}
+.card .view.overlay.hm-white-slight .fa-image {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(56,184,234, 0.6);
+    font-size: 15px;
+    width: 34px;
+    text-align: center;
+    padding: 7px;
+    color: #ffffff;
+    z-index: 500;
+}
+.card .view.overlay.hm-white-slight img {
+-webkit-transition: all .5s;
+transition: all .5s;
+}
+.card:hover .view.overlay.hm-white-slight img {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+.card .info-button .btn-sm {
+    padding: .5rem 0.7rem;
+}
+.card .info-button .btn-sm.book-now {
+    padding: .5rem 1.5rem;
+    background: #38B8EA;
+}
+.card h6.card-title {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.card h6 a {
+    color: #868686;
+}
+.card p {
+    margin-bottom: 10px;
+}
+.card ul {
+    margin-bottom: 0;
+}
+.card .far.fa-star {
+    position: relative;
+    width: 29px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+.card .far.fa-star::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 27px;
+}
+.card ul li .btn{
+	font-size:10px;
+	border-radius:0px;
+	color:#fff;
+	text-transform:uppercase;
+	 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card ul li .Deals:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card .book .btn{
+	font-size:10px;
+	border-radius:0px;
+	color:#fff;
+	text-transform:uppercase;
+	padding-left:16px;
+	padding-right:16px;
+	background-color:#39B9EA;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+}
+.card .book .btn:hover{
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:#FF7E00;
+}
+
+.offer-tag {
+    background: #e01a33;
+    color: white;
+    transform: rotate(45deg);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+.offer-tag {
+    position: absolute;
+    top: 17px;
+    right: -28px;
+    width: 120px;
+    text-align: center;
+    padding: 6px 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ribon-balt {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 48px;
+    
+}
+/* Card-box-area end*/
+
+
+
+
+/* footer section*/
+.foot{
+	background-color:#474747;
+	position:relative;
+}
+
+
+.news .email{
+	position:relative;
+	overflow:hidden;
+	background-color:#474747;
+	border:1px solid #989898;
+	color:#ffffff;
+
+}
+
+.news .btn {
+	position:absolute;
+	margin-top:-37px;
+	margin-left:311px;
+	background-color:#9A8E5E;
+	color:#fff;
+	border-radius:0px;
+	border:none;
+	padding:7px 15px;
+	
+}
+
+table tr .text{
+	color:#9A8E5E;
+}
+
+table tr td ul{
+	list-style:none;
+}
+
+table tr td ul li{
+	display:inline-block;
+}
+
+table tr td a{
+	margin:2px;
+	border:1px solid #858585;
+	
+}
+
+table tr td ul li .ficon-1{
+	padding:4px 11px;
+}
+
+table tr td ul li .ficon-2{
+	padding:4px 6px;
+}
+
+table tr td ul li .ficon-3{
+	padding:4px 4px;
+}
+
+table tr td ul li .ficon-4{
+	padding:4px 6px;
+}
+
+table tr td a i{
+	color:#858585;
+}
+
+.menu2 ul{
+	float:right;
+	list-style:none;
+}
+
+.menu2 ul li{
+	display:inline-block;
+	padding-left:15px;
+}
+
+.menu2 ul li a{
+	text-decoration:none;
+	color:#BEC0B2;
+}
+
+.horizontal{
+	height:2px;
+	width:100%;
+	background-color:#9A8E5E;
+	margin:10px 0px;
+}
+
+/* footer section End*/
+
+
+
+
+
+/*============For Responsive Design=======*/
+
+
+/* Learge device */
+@media screen and (max-width: 992px){
+ .faq-area .coment{
+	margin-left:150px;
+ }
+.recom .bhr{
+	margin-left:225px;
+}
+
+.experience-area img{
+	width:100%;
+	height:auto;
+	margin-top:80px;
+}
+.card {
+    margin-bottom: 30px;
+}
+.news .btn {
+	
+	margin-top:-38px;
+	margin-left:292px;
+}
+
+.logo-img img{
+	margin-right:35px;
+	margin-bottom:25px;
+	margin-left:0px;
+	padding:0px;
+}
+.visa img{
+	margin:0px;
+	float:left;
+}
+/* large device end code */
+}
+
+
+/* Medium device */
+@media screen and (max-width: 768px){
+
+
+.recom .bhr{
+	margin-left:145px;
+}
+
+.news .btn {
+	margin-top:-38px;
+	margin-left:470px;
+}
+
+.faq-area .bd-icon-area .submit-area{
+   float:right;
+   margin-left:180px;
+   margin-top:-40px;
+   position:absolute;
+}
+.faq-area .review-area .rating-area .visit{
+	margin-left:-30px;
+}
+.faq-area .review-area .rating-area{
+	width:93%;
+	display:block;
+	margin-left:25px;
+}
+
+.faq-area .review-area .profile-area{
+	width:30%;
+}
+
+.faq-area .coment{
+	 margin-left:10px;
+ }
+.faq-area .coment .lol{
+	 margin-left:-10px;
+ }
+ 
+ .faq-area .coment span{
+	 margin-right:5px;
+	
+ }
+/* End-medium-device */
+}
+
+
+
+/* Small device */
+@media screen and (max-width: 576px){
+
+.recom .bhr{
+	margin-left:130px;
+}
+	
+.news .btn {
+	margin-top:-38px;
+	margin-left:475px;
+}
+/* End-small-device */
+}
